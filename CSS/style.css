@@ -1,0 +1,65 @@
+/*Google fonts
+font-family: 'Instrument Serif', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inter', sans-serif;
+*/
+
+:root{
+    --rosaOscuro: #D14D72;
+    --piel: #FCC8D1;
+    --lila: #BA90C6;
+}
+
+header{
+    background-color: var(--rosaOscuro);
+}
+
+main{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+footer{
+    background-color: var(--lila);
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+body{
+    background-image: url(../Media/Fondo.jpe);
+    background-size: cover;
+}
+
+.presentacion{
+    height: 10vh;
+    width: 50vw;
+    margin-left: calc(50vw - 25vw);
+    background-color: #FCC8D1;
+}
+
+.titulo{
+    font-family: 'Instrument Serif', serif;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    text-shadow: #575558 2px 0px 0px; 
+}
+
+.subtitulo{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+.trama{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.openings{
+    text-align: center;
+    text-decoration: underline;
+}
